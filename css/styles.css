@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #f2eee2;
+  font-family: Lucida Bright;
+  box-sizing: border-box;
+}
+
+.navbar {
+  border: 0;
+}
+
+#header-nav {
+  background-color: #f81884;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 13px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.6em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  font-family: Lucida Calligraphy;
+  color: white;
+}
+
+h2 {
+	font-family: Lucida Calligraphy;
+	color: black;
+
+}
+
+.row h3 {
+
+	font-family: Lucida Calligraphy;
+	color: black;
+}
+
+#chickentile, #sushitile, #beeftile {
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #43c0f6;
+	width: 90%;
+	margin:0px auto 15px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#sushitile {
+		width: 95%;
+	}
+
+}

@@ -12,17 +12,79 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>FoodMenu</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+  <nav id="header-nav" class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="navbar-brand">
+          <a href="index.html"><h1>Food, LLC</h1></a>
+        </div>
 
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>  
+      </div>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#chicken" class="hidden-lg hidden-md hidden-sm">Chicken</a>
+          </li>
+          <li>
+            <a href="#beef" class="hidden-lg hidden-md hidden-sm">Beef</a>
+          </li>
+          <li>
+            <a href="#sushi" class="hidden-lg hidden-md hidden-sm">Sushi</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div id="main-content" class="container-fluid">
+    <h2 id="menu-title" class="text-center">Our Menu</h2>
+
+    <section class = "row">
+      <div id="chicken" class = "col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div id="chickentile">
+        <h3 class="text-center">Chicken</h3>
+        <p>Tandoori chicken as it should be, combined with great garlic naan and perfect papadums, made that we imagined ourselves in India for dinnertime. Good food, friendly and quick service combined with good prices will ensure a happy and satisfied feeling at departure back to China.Tandoori chicken as it should be, combined with great garlic naan and perfect papadums, made that we imagined ourselves in India for dinnertime. Good food, friendly and quick service combined with good prices will ensure a happy and satisfied feeling at departure back to ChinaTandoori chicken as it should be, combined with great garlic naan and perfect papadums, made that we imagined ourselves in India for dinnertime. Good food, friendly and quick service combined with good prices will ensure a happy and satisfied feeling at departure back to China</p>
+        <a class="visible-xs" href="#header-nav">Back to top</a>
+      </div>
+      </div>
+
+      <div id="beef" class = "col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div id="beeftile">
+        <h3 class="text-center">Beef</h3>
+        <p>They had classic steak house sides, but the ones with the Vietnamese influence really took them to another level. The grilled anchovy spring roll really stood out as a star. The charred root vegetables were something really unique as well. They had classic steak house sides, but the ones with the Vietnamese influence really took them to another level. The grilled anchovy spring roll really stood out as a star. The charred root vegetables were something really unique as well. They had classic steak house sides, but the ones with the Vietnamese influence really took them to another level. The grilled anchovy spring roll really stood out as a star. The charred root vegetables were something really unique as well. </p>
+        <a class="visible-xs" href="#header-nav">Back to top</a>
+      </div>
+      </div>
+
+      <div id="sushi" class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div id="sushitile">
+        <h3 class="text-center">Sushi</h3>
+        <p>A type of food preparation originating in Japan, consisting of cooked vinegared rice combined with other ingredients such as raw seafood, vegetables and sometimes tropical fruits. Ingredients and forms of sushi presentation vary widely, but the ingredient which all sushi have in common is rice.A type of food preparation originating in Japan, consisting of cooked vinegared rice combined with other ingredients such as raw seafood, vegetables and sometimes tropical fruits. Ingredients and forms of sushi presentation vary widely, but the ingredient which all sushi have in common is rice.A type of food preparation originating in Japan, consisting of cooked vinegared rice combined with other ingredients such as raw seafood, vegetables and sometimes tropical fruits. Ingredients and forms of sushi presentation vary widely, but the ingredient which all sushi have in common is rice.</p>
+        <a class="visible-xs" href="#header-nav" class="">Back to top</a>
+        </div>
+      </div>
+  </section>
+
+  </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+
+
 </body>
 </html>
